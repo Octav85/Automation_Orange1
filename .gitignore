@@ -34,5 +34,36 @@ build/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+# Build and Dependency Management Tools
+target/
+.pom.xml.tag
+.pom.xml.releaseBackup
+.build/
+.gradle/
+
+# Operating System Files
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated Files
+generated/
+generated-sources/
+*.class
+
+# Logs and Temporary Files
+*.log
+*.tmp
+
+# Configuration Files
+application.properties
+application.yml
+*.properties
+*.yml
+
+# Dependency Cache
+.m2/
+
+# TestNG Specific Files and Directories
+test-output/
+testng.xml
